@@ -95,7 +95,7 @@ button{
     cursor:pointer;
 }
 img{
-    max-width: 100%;
+    max-width: 300%;
     height: auto;
 }
 /*CSS REUSABLE*/
@@ -281,6 +281,19 @@ img{
 }
 
 /*SPONSOR*/
+
+.sponsor__tittle{
+    font-size:var(--h3-font-size);
+    background: var(--text-gradient);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    top:0;
+    left:10rem;
+    text-align: center;
+    line-height: 6rem;
+}
+
 .sponsor__img{
     width:90px;
 }
@@ -320,8 +333,8 @@ img{
 .specs__img{
     width: 250px;
     position:absolute;
-    top:2rem;
-    right: -4rem;
+    top:5rem;
+    right: -2rem;
 }
 /*CASE*/
 .case__container{
@@ -485,7 +498,7 @@ POR SI SE PONE A IMAGEN
     }
 
     .home__img{
-        width: 200px;
+        width: 300px;
         top:-13rem;
     }
     .home__title{
@@ -524,8 +537,8 @@ POR SI SE PONE A IMAGEN
         padding-top: 2rem;
     }
     .home__img{
-        top:-7rem;
-        left: 0;
+        top:-5rem;
+        
     }
     .specs__img{
         position: initial;
@@ -589,14 +602,16 @@ POR SI SE PONE A IMAGEN
         grid-template-columns: repeat(2,1fr);
     }
     .home__img{
-        top:-9rem;
-        left:4rem;
+        
+        width: 500px;
+        top:-1rem;
+        left:-2rem;
     }
     .home__data{
         padding-top: 8rem;
     }
     .specs__img{
-        width: 300px;
+        width: 100%;
     }
     .case__container{
         column-gap: 5rem;
@@ -632,8 +647,8 @@ POR SI SE PONE A IMAGEN
         margin-right: auto;
     }
     .home__img{
-        width: 300px;
-        top:10rem;
+        width: 500px;
+        top:5rem;
     }
     .home__title{
         top:-5rem;
