@@ -216,9 +216,9 @@ img{
 
 /* HOME*/
 .home__img{
-    width:250px;
+    width:200px;
     position:absolute;
-    top:-1000rem;
+    top:-1rem;
     right: 1.5rem;
 }
 .home__data{
@@ -331,9 +331,9 @@ img{
     margin-left: var(--mb-1-5);
 }
 .specs__img{
-    width: 250px;
+    width: 200px;
     position:absolute;
-    top:5rem;
+    top:2rem;
     right: -2rem;
 }
 /*CASE*/
@@ -345,9 +345,9 @@ img{
     padding: 5rem 0 3rem;
 }
 .case__img{
-    width: 250px;
-    position:absolute;
-    left: -7rem;
+    width: 350px;
+    position:initial;
+    left: -8rem;
 }
 .case__description{
     margin-bottom:var(--mb-1-5);
@@ -368,15 +368,14 @@ img{
 .discount__description{
     margin-bottom: var(--mb-1);
 }
-/*
-POR SI SE PONE A IMAGEN
+
 .discount__img{
-    width: 300px;
+    width: 200px;
     position:absolute;
-    top:4rem;
-    right:-11rem; 
+    top:6.5rem;
+    right:-4rem; 
 }
-*/
+
 /*FOOTER*/
 .footer__container{
     grid-template-columns:repeat(auto-fit,minmax(220px.1fr));
@@ -560,12 +559,12 @@ POR SI SE PONE A IMAGEN
         align-items: center;
         column-gap: 2rem;
     }
-    /*
+   
     POR SI SE COLOCA LA IMAGEN
     .discount__img{
         position: initial;
     }
-    */
+    
     .discount__container{
         grid-template-columns: repeat(2,1fr);
         justify-items: center;
@@ -660,11 +659,11 @@ POR SI SE PONE A IMAGEN
     .sponsor__img{
         width:100px;
     }
-    /*
+   
     .discount__img{
         width: 350px;
     }
-    */
+    
     .footer__container{
         padding-top: 3rem;
     }
