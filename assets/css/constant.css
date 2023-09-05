@@ -215,6 +215,13 @@ img{
 }
 
 /* HOME*/
+.video__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
 .home__img{
     width:200px;
     position:absolute;
@@ -671,7 +678,8 @@ img{
         margin-right: auto;
     }
     .home__img{
-        width: 500px;
+        padding-top: 3.5rem;
+        width: 400px;
         top:5rem;
     }
     .home__title{
@@ -774,10 +782,11 @@ img{
 }
 .planes__option{
     display: flex;
-    height: 50vh;
+    height: 60vh;
+    
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 40%;
     border-radius: 5%;
     background-color: var(--container-color);
